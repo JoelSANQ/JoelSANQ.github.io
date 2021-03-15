@@ -1,0 +1,19 @@
+@media (min-width: 914px){
+    p{
+        font-size: 1.3rem;
+    }
+    .h1{
+        font-size: 1rem;
+    }
+    .container{
+        font-size: 1.4rem;
+    }
+    .foto{
+        width: 11rem;
+        height: 11rem;
+    }
+    .foto_dos{
+        width: 11rem;
+        height: 11rem;
+    }
+}
