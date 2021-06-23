@@ -15,5 +15,9 @@
     h1{
         font-size: 2.4rem;
     }
+    .img__paragraph img{ 
+     width: 12rem;
+     height: 12rem;
+    }
 }
 
