@@ -1,13 +1,20 @@
-@media (min-width: 766px){
+@media (min-width: 400px) and (max-width: 800px){
     .first{
      display: grid;
      align-items: center;
      display: flex;
     }
     .first img{
-        width: 284px;
+        width: 280px;
         height: 285px;
 }
+
+.SecondContainer{
+    width: 400px;
+    height: 300px;
+}
+
+
 .img__paragraph img{ 
     width: 13rem;
     height: 13rem;
@@ -21,6 +28,17 @@
     .container{
         font-size: 2.1rem;
     }
+
+
+}
+
+@media (min-width: 800px) and (max-width: 1100px){
+    .SecondContainer{
+        width: 420px;
+        height: 420px;
+    }
+
+
 
 
 }
