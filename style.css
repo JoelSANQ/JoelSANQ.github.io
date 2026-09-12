@@ -143,6 +143,11 @@ p{
     padding: 8px;
     background-color: transparent;
     border-radius: 10px;
+    transition: transform 0.15s ease;
+}
+
+.icon-tooltip:hover .tech-icon{
+    transform: scale(1.4);
 }
 
 .icon-tooltip{

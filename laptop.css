@@ -20,7 +20,7 @@
     .experience-section{
         grid-template-columns: 2fr 1fr;
         align-items: start;
-        max-width: 1200px;
+        max-width: 1300px;
         margin-left: auto;
         margin-right: auto;
     }
@@ -33,6 +33,7 @@
     .stack-column{
         margin: 0;
         width: 520px;
+        height: 680px;
     }
 
     .project-card{
