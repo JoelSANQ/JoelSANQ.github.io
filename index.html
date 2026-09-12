@@ -9,27 +9,19 @@
   <link rel="stylesheet" href="./laptop.css">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script></head>
-<header class="cabezera">Luis Tokio</header>
+<header class="cabezera">Desarrollador Fulstack</header>
 
 <body>
   <nav class="menu">
     <ul>
       <li> <a style="text-decoration: none;" href="./index.html"> Acerca de mí</a></li>
-      <li> <a style="text-decoration: none;" href="./precio.html">Precios</a> </li>
+      <li> <a style="text-decoration: none;" href="./precio.html">Mi trayectoria</a> </li>
     </ul>
   </nav>
   <section>
-    <h1 class="padding">Bienvenido</h1>
     <div class="contenedor">
       <div class="first">
         <img src="./img/joel-pic.jpg" alt="">
-
-        <div class="sub_imagenes mx-auto">
-
-          <a href="https://www.facebook.com/jesus.quintalquinonez/">
-            <img src="./facebook-770688_640.png" alt="facebook logo"></a>
-          <img src="./whatsapp-1623579_640.png" alt="whatsapp logo">
-        </div>
       </div>
 
       <div class="SecondContainer">
@@ -39,33 +31,99 @@
           Disfruto trabajando en entornos colaborativos y ágiles (Scrum) y me interesa especialmente crear 
           aplicaciones móviles intuitivas y eficientes que resuelvan problemas reales mediante un diseño creativo de UX y UI.
         </p>
-        <button class="block mx-auto py-2 px-4 bg-blue-500 text-white rounded"> DESCARGAR CV</button>
+        <button id="cv-button" class="block mx-auto py-2 px-4 bg-blue-500 text-white rounded"> DESCARGAR CV</button>
       </div>
     </div>
-    <div class="second__paragraph">
-      <h1>Piezass</h1>
-      <p>Actualmente cambio distintas partes del control joycon, en la barra de navegación pongo un listado de
-        las piezas que cuento con el momento incluyendo precio por realizar el servicio.
-      <div class="img__paragraph">
-        <img src="./img/joycon azul.jpeg" alt="">
-        <img src="./img/joycon rojo.jpeg" alt="">
-        <img src="./img/pieza de joycon.jpeg" alt="">
+    <h1 class="section-title">Mi experiencia</h1>
+    <div class="experience-section">
+      <div class="second__paragraph">
+        <div class="experience-list">
+          <div class="experience-item">
+            <h2>Webscrapping (Scale A.I) <span class="experience-date">2022-2024</span></h2>
+            <p>Estuve a cargo de extraer videos, imágenes e información de distintos sitios web
+              utilizando selectores HTML y CSS con una herramienta propia de la empresa.</p>
+          </div>
+          <div class="experience-item">
+            <h2>Weather app (Dedica) <span class="experience-date">2025-2026</span></h2>
+            <p>Desarrollo de una aplicación móvil híbrida usando Flutter donde, a partir de los
+              datos obtenidos de la red proporcionada por la empresa, se muestran datos, gráficas,
+              historial, mapas y notificaciones en tiempo real de distintos eventos climáticos.</p>
+          </div>
+          <div class="experience-item">
+            <h2>Practicante de Ingeniería de Software (Group Proser) <span class="experience-date">2026-2026</span></h2>
+            <p>Desarrollé y di mantenimiento a aplicaciones web full-stack utilizando PHP, Laravel
+              y JavaScript. Diseñé y administré bases de datos mediante migraciones, construí
+              interfaces dinámicas con manipulación del DOM, y contribuí a mejoras de UI/UX para
+              diseños responsivos y fáciles de usar.</p>
+          </div>
+        </div>
       </div>
-      </p>
-      <br>
-    </div>
-    <div class="contacto">
-      <h1>Contacto</h1>
-      <p> Puedes contactarme por Facebook en el perfil Jesus Quintal.
-        Tambien por whatsapp al numero 9991376407.
-      </p>
-      <a href="https://www.facebook.com/jesus.quintalquinonez/">
-        <img src="./facebook-770688_640.png" id="facebook" alt="facebook logo"></a>
-      <img src="./whatsapp-1623579_640.png" id="whatsapp" alt="whatsapp logo">
+
+      <aside class="stack-column">
+        <h2 class="stack-role">Fullstack Engineer</h2>
+        <p class="stack-subtitle">Especializado en React y JavaScript</p>
+
+        <h2 class="stack-title">Frontend</h2>
+        <div class="icon-row">
+          <span class="icon-tooltip" data-tooltip="JavaScript"><img class="tech-icon" src="./img/icons/javascript.svg" alt="JavaScript"></span>
+          <span class="icon-tooltip" data-tooltip="React"><img class="tech-icon" src="./img/icons/react.svg" alt="React"></span>
+          <span class="icon-tooltip" data-tooltip="HTML5"><img class="tech-icon" src="./img/icons/html5.svg" alt="HTML5"></span>
+          <span class="icon-tooltip" data-tooltip="CSS3"><img class="tech-icon" src="./img/icons/css3.svg" alt="CSS3"></span>
+          <span class="icon-tooltip" data-tooltip="Tailwind CSS"><img class="tech-icon" src="./img/icons/tailwindcss.svg" alt="Tailwind CSS"></span>
+          <span class="icon-tooltip" data-tooltip="Next.js"><img class="tech-icon" src="./img/icons/nextdotjs.svg" alt="Next.js"></span>
+          <span class="icon-tooltip" data-tooltip="Dart"><img class="tech-icon" src="./img/icons/dart.svg" alt="Dart"></span>
+          <span class="icon-tooltip" data-tooltip="Flutter"><img class="tech-icon" src="./img/icons/flutter.svg" alt="Flutter"></span>
+        </div>
+        <div class="tag-row">
+          <span class="skill-tag">DOM Manipulation</span>
+          <span class="skill-tag">Responsive Design</span>
+        </div>
+
+        <h2 class="stack-title">Backend</h2>
+        <div class="icon-row">
+          <span class="icon-tooltip" data-tooltip="PHP 8.12"><img class="tech-icon" src="./img/icons/php.svg" alt="PHP"></span>
+          <span class="icon-tooltip" data-tooltip="Laravel 13"><img class="tech-icon" src="./img/icons/laravel.svg" alt="Laravel"></span>
+          <span class="icon-tooltip" data-tooltip="Python"><img class="tech-icon" src="./img/icons/python.svg" alt="Python"></span>
+          <span class="icon-tooltip" data-tooltip="Node.js"><img class="tech-icon" src="./img/icons/nodedotjs.svg" alt="Node.js"></span>
+          <span class="icon-tooltip" data-tooltip="PostgreSQL"><img class="tech-icon" src="./img/icons/postgresql.svg" alt="PostgreSQL"></span>
+          <span class="icon-tooltip" data-tooltip="MySQL"><img class="tech-icon" src="./img/icons/mysql.svg" alt="MySQL"></span>
+        </div>
+        <div class="tag-row">
+          <span class="skill-tag">RESTful APIs</span>
+          <span class="skill-tag">MVC</span>
+          <span class="skill-tag">Eloquent</span>
+          <span class="skill-tag">ORM</span>
+        </div>
+
+        <h2 class="stack-title">Herramientas:</h2>
+        <div class="icon-row">
+          <span class="icon-tooltip" data-tooltip="Git"><img class="tech-icon" src="./img/icons/git.svg" alt="Git"></span>
+          <span class="icon-tooltip" data-tooltip="Firebase"><img class="tech-icon" src="./img/icons/firebase.svg" alt="Firebase"></span>
+        </div>
+
+        <h2 class="stack-title">Idiomas:</h2>
+        <div class="lang-row">
+          <span class="lang-tag">Español (Nativo)</span>
+          <span class="lang-tag">Inglés (B2)</span>
+        </div>
+      </aside>
     </div>
 
-    </div>
+     <h1 class="section-title">Mi Eduacion</h1>
   </section>
+
+  <script>
+    function downloadCV() {
+      var link = document.createElement("a");
+      link.href = "./cv_Joel_Sanchez_Quintal.pdf";
+      link.download = "cv_Joel_Sanchez_Quintal.pdf";
+      document.body.appendChild(link);
+      link.click();
+      document.body.removeChild(link);
+    }
+
+    document.getElementById("cv-button").addEventListener("click", downloadCV);
+  </script>
 </body>
 
 </html>

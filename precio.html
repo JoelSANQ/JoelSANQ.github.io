@@ -1,53 +1,116 @@
 <!Doctype html>
-<html lang="es">    
-<head> 
-<title>Luis Tokio Enterprises</title> 
-<link rel="stylesheet" href="./precio.css">
-<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-</head>
-<header class="cabezera">Luis Tokio
-        
-</header>  
-<nav id="menu">
-           <ul>
-            <li> <a style="text-decoration: none;" href="./index.html">Acerca de mí</a> </li>
-           <li> <a style="text-decoration: none;" href="./precio.html">Precios</a> </li>
-           <li><a style="text-decoration: none;" href=""></a></li>
-           </ul>     
-         </nav>  
-<body>
-    <section class="margen">
-        <div class="titulo">
-            <h1 >SERVICIOS</h1>
-        </div>
-    <section class="container"> 
-    <div>
-        <figure>
-            <img class="foto" src="./img/joycon.jpg" alt="joycon">
-            <b><p>Cambio de joycon:</b> 200 pesos</p>
-        </figure>
-    </div>
-         <div>
-             <figure>
-                <img class="foto" src="./img/shell.jpg" alt="joycon shell">
-                <b><p>Cambio de shell:</b> 400 pesos por ambos</p>
-             </figure>
-         </div>
-                <div>
-                <figure>
-                    <img class="foto" src="./img/61wSU4bEpkL._AC_SS450_.jpg" alt="Joycon Boton L">
-                   <b><p>Cambio de botón L:</b>150 pesos</p>
-                </figure>
-                    </div>
-                          <div>
-                            <figure>
-                                <img class="foto" src="./img/SLSR.jpg" alt="Joycon sl y sr">
-                                <b><p>Cambio de botón SL y SR:</b> 150 pesos cada uno</p>
-                            </figure>  
-                                </div>  
-</section>
-</section>
-  </body>
-<html>
+<html lang="es">
 
-     
+<head>
+  <title>Luis Tokio Enterprises</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="./phones.css">
+  <link rel="stylesheet" href="tablet.css">
+  <link rel="stylesheet" href="./laptop.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<header class="cabezera">Desarrollador Fullstack </header>
+
+<body>
+  <nav class="menu">
+    <ul>
+      <li> <a style="text-decoration: none;" href="./index.html"> Acerca de mí</a></li>
+      <li> <a style="text-decoration: none;" href="./precio.html">Mi trayectoria</a> </li>
+    </ul>
+  </nav>
+  <section>
+    <h1 class="section-title">Mis Proyectos</h1>
+    <div class="project-grid">
+      <div class="project-card">
+        <div class="project-thumb">
+          <img src="./img/barbershop.png" alt="Barber Shop - Agendar cita" style="width:100%;height:100%;object-fit:cover;border-radius:6px;">
+        </div>
+        <div class="project-content">
+          <h2>Barber Shop <img class="project-platform-icon" src="./img/icons/web.svg" alt="Proyecto web" title="Proyecto web"> <span class="experience-date">Agosto 2026</span></h2>
+          <p>Sistema de agendamiento de citas para una barbería. Maneja roles de
+            Super Usuario (control total de la plataforma), Usuario (agenda y administra
+            sus propias citas) y Admin (gestiona clientes, citas y el catálogo de servicios
+            del negocio). Datos de prueba: próximamente.</p>
+          <p>🔧 <strong>Estado del Proyecto:</strong> Datos de prueba próximos a integrar.</p>
+          <div class="project-footer">
+            <p><a href="https://barber-shop-project-6b.vercel.app/reservar" target="_blank" rel="noopener">Ver proyecto en vivo →</a></p>
+            <div class="tag-row">
+              <span class="skill-tag">PHP 8.12</span>
+              <span class="skill-tag">Laravel 12</span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="project-card">
+        <div class="project-thumb">
+          <img src="./img/aplicacion-movil.png" alt="INIFAP - App de clima" style="width:100%;height:100%;object-fit:cover;border-radius:6px;">
+        </div>
+        <div class="project-content">
+          <h2>INIFAP - App de Clima <img class="project-platform-icon" src="./img/icons/android.svg" alt="Aplicación Android" title="Aplicación Android"> <span class="experience-date">2025-2026</span></h2>
+          <p>Aplicación móvil de monitoreo climático para Android, desarrollada para INIFAP.
+            Muestra en tiempo real datos de viento, radiación solar, precipitación y humedad,
+            con máximos, mínimos y promedios históricos por estación.</p>
+          <div class="project-footer">
+            <div class="tag-row">
+              <span class="skill-tag">Flutter</span>
+              <span class="skill-tag">Dart</span>
+              <span class="skill-tag">Android</span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="project-card">
+        <div class="project-thumb">
+          <img src="./img/cinepolis.png" alt="Cinépolis - Landing page" style="width:100%;height:100%;object-fit:cover;border-radius:6px;">
+        </div>
+        <div class="project-content">
+          <h2>Cinépolis <img class="project-platform-icon" src="./img/icons/web.svg" alt="Proyecto web" title="Proyecto web"></h2>
+          <p>Réplica de la página principal de Cinépolis, con carrusel de películas en
+            cartelera, tarjeta destacada con póster, sinopsis y botón de compra de boletos,
+            y barra de navegación (Inicio, Cartelera, Alimentos, Membresía).</p>
+          <div class="project-footer">
+            <div class="tag-row">
+              <span class="skill-tag">React</span>
+              <span class="skill-tag">Next.js</span>
+              <span class="skill-tag">JavaScript</span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="project-card">
+        <div class="project-thumb">
+          <img src="./img/DRAWMIAN.png" alt="Drawmian - Galería de arte" style="width:100%;height:100%;object-fit:contain;border-radius:6px;">
+        </div>
+        <div class="project-content">
+          <h2>Drawmian <img class="project-platform-icon" src="./img/icons/web.svg" alt="Proyecto web" title="Proyecto web"></h2>
+          <p>Sitio de galería de arte personal, con listado de publicaciones más populares,
+            tarjetas de ilustración con título y botón "ir a publicación", y navegación
+            (Home, FAQ, Acerca de mí).</p>
+          <div class="project-footer">
+            <p><a href="https://joelsanq.github.io/Drawmian/index.html" target="_blank" rel="noopener">Ver proyecto en vivo →</a></p>
+            <div class="tag-row">
+              <span class="skill-tag">HTML5</span>
+              <span class="skill-tag">CSS3</span>
+              <span class="skill-tag">JavaScript</span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="project-card">
+        <div class="project-thumb">Imagen del proyecto</div>
+        <div class="project-content">
+          <h2>Proyecto 5</h2>
+          <p>Descripción pendiente.</p>
+          <div class="project-footer">
+            <div class="tag-row">
+              <span class="skill-tag">Tecnología</span>
+              <span class="skill-tag">Tecnología</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+</body>
+
+</html>

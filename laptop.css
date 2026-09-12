@@ -12,10 +12,32 @@
     margin-left: 100px;
     margin-right: 100px;
 }
-    .img__paragraph img{ 
+    .img__paragraph img{
         width: 17rem;
         height: 17rem;
        }
+
+    .experience-section{
+        grid-template-columns: 2fr 1fr;
+        align-items: start;
+        max-width: 1200px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .second__paragraph{
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .stack-column{
+        margin: 0;
+        width: 520px;
+    }
+
+    .project-card{
+        grid-template-columns: 320px 1fr;
+    }
 
 }
 
