@@ -236,18 +236,36 @@ p{
     background-color: #0d2426;
     border: 1px dashed #00A9B1;
     border-radius: 8px;
-    min-height: 220px;
+    min-height: 0;
+    aspect-ratio: 16 / 9;
+    overflow: hidden;
     display: flex;
     align-items: center;
     justify-content: center;
     color: #00A9B1;
     font-size: 14px;
     text-align: center;
+    min-width: 0;
+    width: 100%;
+}
+
+.project-thumb--cinepolis {
+    min-height: 0;
+}
+
+.project-video {
+    width: 100%;
+    height: 100%;
+    display: block;
+    object-fit: fill;
+    object-position: center;
+    border-radius: 6px;
 }
 
 .project-content{
     display: flex;
     flex-direction: column;
+    min-width: 0;
 }
 
 .project-content h2{
