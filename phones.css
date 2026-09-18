@@ -33,4 +33,122 @@
     
 
 }
+@media (max-width: 767px) {
+    body {
+        padding-bottom: 80px;
+        overflow-x: hidden;
+    }
+
+    .cabezera {
+        padding: 12px;
+        font-size: 32px;
+        line-height: 1.1;
+        overflow-wrap: anywhere;
+    }
+
+    .section-title {
+        padding: 24px 12px;
+        font-size: 2rem;
+    }
+
+    .project-grid {
+        gap: 16px;
+        padding: 0 12px;
+    }
+
+    .project-card {
+        gap: 14px;
+        min-width: 0;
+        max-width: 100%;
+        padding: 12px;
+        border-width: 4px;
+    }
+
+    .project-thumb {
+        width: 100%;
+        height: auto;
+        aspect-ratio: 16 / 9;
+    }
+
+    .project-content h2 {
+        font-size: 20px;
+        line-height: 1.25;
+    }
+
+    .project-content,
+    .barber-access,
+    .barber-account {
+        min-width: 0;
+        max-width: 100%;
+    }
+
+    .project-content p {
+        font-size: 16px;
+        line-height: 1.45;
+    }
+
+    .experience-date {
+        display: inline-block;
+        margin-top: 4px;
+        font-size: 14px;
+    }
+
+    .project-footer {
+        padding-top: 12px;
+    }
+
+    .project-actions {
+        margin: 14px 0;
+    }
+
+    .project-live-link,
+    .project-actions .project-live-link {
+        width: 100%;
+        max-width: 240px;
+        height: 42px;
+        margin: 14px 0;
+    }
+
+    .project-actions .project-live-link {
+        margin: 0;
+    }
+
+    .tag-row {
+        gap: 8px;
+        margin-bottom: 10px;
+    }
+
+    .barber-access {
+        padding: 10px;
+    }
+
+    .barber-access-heading {
+        margin-bottom: 8px;
+    }
+
+    .barber-account {
+        padding: 10px;
+    }
+
+    .barber-account > div {
+        align-items: flex-start;
+        flex-direction: column;
+        gap: 3px;
+    }
+
+    .barber-account small {
+        white-space: normal;
+    }
+
+    .barber-account code {
+        overflow: visible;
+        overflow-wrap: anywhere;
+        text-overflow: clip;
+        white-space: normal;
+    }
+
+    .barber-project-footer {
+        width: 100%;
+    }
+}
 
