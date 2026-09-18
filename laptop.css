@@ -47,5 +47,26 @@
         align-self: start;
     }
 
+    .barber-project{
+        grid-template-areas:
+            "barber-image barber-content"
+            "barber-footer barber-content";
+        grid-template-rows: auto 1fr;
+    }
+
+    .barber-project > .project-thumb{
+        grid-area: barber-image;
+    }
+
+    .barber-project > .project-content{
+        grid-area: barber-content;
+    }
+
+    .barber-project > .barber-project-footer{
+        grid-area: barber-footer;
+        align-self: start;
+        width: 100%;
+    }
+
 }
 

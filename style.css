@@ -297,6 +297,122 @@ p{
     margin-top: 8px;
 }
 
+.barber-access {
+    margin-top: 16px;
+    padding: 12px;
+    background: #0d2426;
+    border: 1px solid #0a7b81;
+    border-radius: 12px;
+}
+
+.barber-project > .project-thumb {
+    border-style: solid;
+    border-color: #0a7b81;
+    box-shadow: 0 10px 24px #07171966;
+}
+
+.barber-project > .project-thumb img {
+    object-position: center;
+}
+
+.barber-access-heading {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 12px;
+    margin-bottom: 10px;
+}
+
+.barber-access-heading h3 {
+    color: #00c3cc;
+    font: 600 16px -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+}
+
+.barber-access-heading span {
+    flex: 0 0 auto;
+    padding: 3px 9px;
+    color: #ffffff;
+    background: #163d3f;
+    border-radius: 999px;
+    font: 600 11px -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+}
+
+.barber-access-grid {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 8px;
+}
+
+.barber-account {
+    min-width: 0;
+    padding: 9px 10px;
+    background: #163d3f80;
+    border: 1px solid #24575a;
+    border-radius: 9px;
+}
+
+.barber-account > div {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    gap: 8px;
+    margin-bottom: 7px;
+}
+
+.barber-account strong,
+.barber-account small {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+}
+
+.barber-account strong {
+    color: #ffffff;
+    font-size: 13px;
+}
+
+.barber-account small {
+    color: #90c8ca;
+    font-size: 10px;
+    white-space: nowrap;
+}
+
+.barber-account code {
+    display: block;
+    overflow: hidden;
+    color: #d8ffff;
+    font-size: 11px;
+    line-height: 1.5;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.barber-account:last-child {
+    grid-column: 1 / -1;
+}
+
+.barber-project-footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 14px;
+    margin: 0;
+    padding: 0;
+}
+
+.barber-project-footer .project-live-link,
+.barber-project-footer .tag-row {
+    margin: 0;
+}
+
+@media (max-width: 700px) {
+    .barber-access-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .barber-account:last-child {
+        grid-column: auto;
+    }
+}
+
 .img__paragraph img{
     width: 30%;
     position: relative;
